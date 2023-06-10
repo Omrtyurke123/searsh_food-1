@@ -1,0 +1,139 @@
+body{
+    background-color:#eee;
+padding: 0;
+margin: 0;
+
+}
+main{
+display: flex;
+justify-content: space-between;
+}
+main .left-section{
+background-color: blueviolet;
+height:100vh;
+width:40%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+
+}
+main .left-section .input-sersh{
+    height:50px;
+    width:333px;
+    border: 0;
+    margin-right:2px;
+    color: blueviolet;
+    font-size:20px;
+    font-weight:600;
+    padding-left:20px;
+}
+main .left-section .btn{
+    height:54px;
+    width:55px;
+    border: 0;
+cursor: pointer;
+background-color: black;
+color: #fff;
+margin-top: 1px;
+
+}
+main .left-section .btn i{ 
+    font-size:40px;
+    font-weight:600;
+}
+
+
+main .right-section{
+background-color: #dedcdc;
+width: 60%;
+height:100vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-left:40%;
+}
+main .right-section .card{
+background-color: #fff;
+height:35em;
+width:47%;
+margin-top:30px;
+border-radius:1em;
+
+}
+main .right-section .img-card img{
+    width:100%;
+    height:25em;
+    border-top-left-radius: 1em;
+border-top-right-radius:1em;
+}
+
+
+main .right-section .card .card-info{
+  
+    text-align: center;
+    /* margin-top: ; */
+}
+main .right-section .card .card-info h2{
+color: #000;
+font-size: 28px;
+font-weight: 700;
+margin-top: 1em;
+margin-bottom: 1.3em;
+}
+main .right-section .card .card-info a{
+    background-color: blueviolet;
+
+  padding:16px 50px;
+  color: #fff;
+  border-radius: 1.7em;
+  text-decoration: none;
+  font-size:20px;
+font-weight: 600;
+margin-top:80px;
+
+}
+main .right-section .card .card-info a:hover{
+    background-color: #000;
+}
+
+main .about-ditils{
+    display: none;
+    background-color:blueviolet;
+    height:100vh;
+    width:40%;
+    /* display: flex; */
+ 
+    position: fixed;
+    flex-direction: column;
+    
+}
+main .about-ditils i{
+    margin-top: 1em;
+    position: relative;
+    left: 90%;
+    /* background-color: #fff; */
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    cursor: pointer;
+}
+main .about-ditils p,a{
+    margin-top: 2em;
+padding-left: 5%;
+color: #fff;
+}
+
+main .about-ditils h2{
+color: #fff;
+font-size: 33px;
+font-weight: 800;
+font-family:monospace;
+padding-left: 5%;
+
+}
+main .about-ditils p{
+    color: #fff;
+font-size: 20px;
+font-weight: 500;
+font-family:sans-serif;
+}
